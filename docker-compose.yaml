@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+    client:
+        container_name: static-fe
+        image: static-fe:latest
+        build: .
+    nginx:
+        container_name: nginx-client
+        build: ./nginx
+        ports:
+            - 909:80

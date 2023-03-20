@@ -1,0 +1,14 @@
+.FlyingHearts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.FlyingHearts_Heart {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../../Asset/image/heart.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

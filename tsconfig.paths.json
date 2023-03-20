@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@application/*": [
+                "./Application/*"
+            ],
+            "@middleware/*": [
+                "./Middleware/*"
+            ],
+            "@hook/*": [
+                "./Hook/*"
+            ],
+            "@presentation/*": [
+                "./Presentation/*"
+            ],
+            "@nextpages/*": [
+                "../pages/*"
+            ],
+            "@service/*": [
+                "./Service/*"
+            ],
+            "@asset/*": [
+                "./Asset/*"
+            ],
+            "@env": [
+                "../env.config.json"
+            ]
+        }
+    }
+}
