@@ -1,6 +1,6 @@
 import configData from "@env";
 
-var ENV_CONFIG = configData.DEFAULT;
+var ENV_CONFIG = configData.DEVELOPMENT;
 switch (process.env.NODE_ENV) {
     case 'development':
         ENV_CONFIG = configData.DEVELOPMENT;

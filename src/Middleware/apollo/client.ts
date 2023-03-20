@@ -1,4 +1,3 @@
-
 import { ApolloClient, HttpLink, InMemoryCache, NormalizedCacheObject } from "@apollo/client";
 
 import ENV from "@application/api/envProvider";
@@ -8,7 +7,7 @@ function createApolloClient() {
     return new ApolloClient({
         ssrMode: typeof window === "undefined",
         link: new HttpLink({
-            uri: ENV.server.testendpoint,
+            uri: ENV.server.name,
         }),
         cache: new InMemoryCache(),
     });
